@@ -1,0 +1,408 @@
+* {
+      margin: 0%;
+      padding: 0%;
+      box-sizing: border-box;
+}
+
+/*estilos de contactos*/
+.direc h1 {
+      margin-top: 15px;
+      margin-bottom: 15px;
+}
+
+.direc p {
+      margin-bottom: 0px;
+      font: 1em sans-serif;
+}
+
+.loremC {
+      background-color: black;
+      height: 80px;
+}
+
+.parrafoC {
+      margin: 25px;
+      font: 1em sans-serif;
+      color: white
+}
+
+.Titulo2 {
+      background-color: rgb(148, 54, 101);
+      margin-left: 30%;
+      margin-right: 30%;
+      margin-top: 50px;
+      padding: 10;
+      font-size: xx-large;
+      display: flex;
+      justify-content: center;
+}
+
+.mapaUbicacion {
+      margin: 20px;
+      width: 500px;
+}
+
+.ubi {
+      margin-left: 70%;
+      width: 100%;
+}
+
+.containerContactos img {
+      width: 400px;
+      margin: 20px;
+}
+
+.containerContactos :hover {
+      transform: scale(1.05);
+}
+
+.containerContactos {
+      display: flex;
+      justify-content: center;
+}
+
+.containerContactos {
+      display: grid;
+      grid-template-columns: auto auto;
+}
+
+.foter {
+      height: 250px;
+}
+
+/*fin de estilos de contactos*/
+
+
+
+/*estilos del index.html*/
+.menuPrincipal h1 {
+      font-family: 'Dancing Script', cursive;
+      margin-left: 50px;
+      color: rgb(253, 179, 0);
+}
+
+.menuPrincipal {
+      height: 130px;
+      border: black;
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.493), black);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+}
+
+
+.menuSecundario {
+      margin: 20px;
+      padding-top: 15px;
+      list-style: none;
+      display: flex;
+      justify-content: right;
+}
+
+.menuSecundario :hover {
+      color: rgba(255, 255, 0, 0.788);
+}
+
+a {
+      text-decoration: none;
+      margin: 10px;
+      color: rgba(255, 255, 255, 0.842);
+      font: 1rem sans-serif;
+}
+
+.segundoMenu {
+      height: 50px;
+      border: 1rem black;
+      background-color: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.tercerMenu {
+      list-style: none;
+      color: white;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+}
+
+.top {
+      margin: 25px;
+}
+
+.lorem {
+      margin-left: 80px;
+      margin-right: 80px;
+      font-weight: bold;
+      font-size: 2rem;
+}
+
+.parrafo {
+      color: rgb(146, 16, 16);
+}
+
+.segundoTitulo {
+      display: flex;
+      margin: 10%;
+      padding: 10;
+      font-size: xx-large;
+}
+
+.segundoTitulo img {
+      margin-left: 90px;
+}
+
+.guit {
+      margin-left: 40px;
+
+}
+
+.guitarra :hover {
+      margin-left: 50px;
+      transition-duration: (1.03);
+
+}
+
+.navar-nav {
+      margin-left: 100%;
+}
+
+/*estilos carusel de redes*/
+
+#carouselExampleControls {
+      margin-bottom: 50px;
+}
+
+.carousel-inner {
+      height: 750px;
+}
+
+/*estilos preguntas frecuentes*/
+.conTainer-fluid {
+      height: 70vh;
+      background-color: black;
+}
+
+.row {
+      color: white;
+}
+
+/*estilos de la car*/
+.card {
+      margin-left: 50px;
+}
+
+/*estilos sobre nosotros*/
+.bg-navbar-castor {
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.493), black);
+}
+
+.navbar-brand {
+      color: aliceblue;
+}
+
+.nav-link {
+      color: aliceblue;
+}
+
+
+/*estilos de gridContainer*/
+
+.gridContainer {
+      height: 500%;
+      margin: 30px;
+      display: grid;
+      grid-template-columns: auto auto;
+      justify-content: center;
+      gap: 20px;
+}
+
+.gridContainer div :hover {
+      transform: scale(1.03);
+
+}
+
+.gridContainer div {
+      margin-top: 10px;
+}
+
+.gridContainer img {
+      width: 100%;
+}
+
+
+
+/*medias quieres*/
+@media screen and (max-width:768px) {
+      .gridContainer img {
+            width: 300px;
+      }
+
+      .segundoTitulo {
+            margin: 10%;
+            padding: 10;
+            font-size: medium;
+      }
+
+      .menuPrincipal h1 {
+            margin-left: 5px;
+      }
+
+      .priN {
+            width: 50%;
+            height: 80%;
+      }
+
+      .lorem {
+            margin-top: 15px;
+            font-size: 1rem;
+      }
+
+      .guitarra img {
+            width: 180px;
+            margin-left: 60px;
+      }
+
+
+
+      /*media queries de contactos*/
+      .ubi {
+            margin-left: 10px;
+            width: 250px;
+      }
+
+      .Titulo2 {
+            font-size: medium;
+      }
+
+      .loremC {
+            margin-left: 30px;
+            margin-right: 30px;
+            background-color: black;
+            height: 80px;
+
+      }
+
+      .parrafoC {
+            margin-top: 20px;
+            font-size: medium;
+            color: white
+      }
+
+      .direc p {
+            margin-left: 10px;
+            margin-bottom: 20px;
+            font: 1em sans-serif;
+      }
+
+      .containerContactos img {
+            width: 200px;
+            margin: 20px;
+      }
+
+      /* fin de media queries a contactos*/
+      .carousel-inner {
+            height: 350px;
+      }
+
+
+}
+
+@media screen and (max-width: 576px) {
+      .menuPrincipal h1 {
+            font-size: 160%;
+      }
+
+      .tercerMenu {
+            font-size: small;
+      }
+
+      .menuSecundario {
+            flex-direction: column;
+      }
+
+      .menuSecundario {
+            margin-top: 2px;
+      }
+
+      .lorem {
+            display: none;
+      }
+
+      .segundoTitulo {
+            font-size: 1rem;
+      }
+
+      .guitarra img {
+            width: 150px;
+      }
+
+      .guitarra {
+            display: flex;
+            justify-content: right;
+            margin-right: 15%;
+      }
+
+
+      .gridContainer {
+            grid-template-columns: auto;
+
+
+      }
+
+      .gridContainer img {
+            width: 200px;
+      }
+
+      /*media queries de contactos*/
+      .Titulo2 h2 {
+            margin-top: 20px;
+            height: 60px;
+            font-size: large;
+      }
+
+      .containerContactos {
+            grid-template-columns: auto;
+      }
+
+      .containerContactos img {
+            width: 200px;
+            margin-top: 25px;
+      }
+
+      .loremC {
+            display: flex;
+            justify-content: center;
+      }
+
+      .parrafoC {
+            margin-top: 20px;
+            font-size: small;
+            color: white;
+      }
+
+      .direc p {
+            margin-left: 10px;
+
+
+      }
+
+      .direc h1 {
+            margin-left: 5px;
+            font-size: x smaller;
+      }
+
+      .direc p {
+            margin: 3px;
+      }
+
+      /*fin de media queries de contactos*/
+
+
+      /*media quieres carousel*/
+      .carousel-inner {
+            height: 300px;
+      }
+
+}
