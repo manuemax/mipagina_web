@@ -54,11 +54,9 @@
 
 .containerContactos :hover {
       transform: scale(1.05);
-
 }
 
 .containerContactos {
-
       display: flex;
       justify-content: center;
 }
@@ -66,59 +64,23 @@
 .containerContactos {
       display: grid;
       grid-template-columns: auto auto;
-
-
 }
-
-.foter {
-      height: 250px;
-}
-
-/*fin de estilos de contactos*/
 
 
 
 /*estilos del index.html*/
 .menuPrincipal h1 {
+      
       font-family: 'Dancing Script', cursive;
-      margin-left: 50px;
       color: rgb(253, 179, 0);
-
 }
 
-.menuPrincipal {
-      height: 130px;
-      border: black;
+.menuPrincipal {   
       background: linear-gradient(to top, rgba(0, 0, 0, 0.493), black);
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-}
-
-
-.menuSecundario {
-      margin: 20px;
-      padding-top: 15px;
-      list-style: none;
-      display: flex;
-      justify-content: right;
-}
-
-.menuSecundario :hover {
-      color: rgba(255, 255, 0, 0.788);
-}
-
-a {
-      text-decoration: none;
-      margin: 10px;
-      color: rgba(255, 255, 255, 0.842);
-      font: 1rem sans-serif;
 }
 
 .segundoMenu {
-
       height: 50px;
-      border: 1rem black;
       background-color: black;
       display: flex;
       align-items: center;
@@ -131,23 +93,10 @@ a {
       display: flex;
       flex-direction: row;
       justify-content: center;
-
-
-
 }
 
 .top {
       margin: 25px;
-}
-
-
-.imaGen {
-      display: flex;
-      justify-content: center;
-}
-
-.priN {
-      width: 60%;
 }
 
 .lorem {
@@ -183,10 +132,13 @@ a {
 
 }
 
+.navar-nav {
+      margin-left: 100%;
+}
+
 /*estilos carusel de redes*/
 
 #carouselExampleControls {
-
       margin-bottom: 50px;
 }
 
@@ -196,16 +148,116 @@ a {
 
 
 
+/*estilos preguntas frecuentes*/
+.conTainer-fluid {
+      height: 70vh;
+      background-color: black;
+}
+
+.row {
+      color: white;
+}
+
+
 /*estilos de la car*/
 .card {
       margin-left: 50px;
 }
 
 
+/*estilos sobre nosotros*/
+.loremSobren{
+      margin-bottom: 425px;
+}
+.tituloS{
+     color: rgba(253, 179, 0);
+}
+
+.navbar-toggler{
+      margin-left: 85%;      
+}
+.navbar-brand {
+      color: aliceblue;
+}
+
+.nav-link {
+      color: aliceblue;
+}
+.navbar-nav i{
+      margin-left: 80%;
+}
+.navbar-nav{
+      margin-left: 54%;  
+}
+.rowsS{
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.493), black);
+}
+
+
+
+/*estilos footer*/
+.pie-pagina{
+     
+      width:100%;
+      background-color: #0a141d;
+}
+.pie-pagina .grupo-1{
+      width: 100%;
+      max-width: 1000px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-gap: 55px;
+      padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+      width: 170px;
+
+}
+.pie-pagina .grupo-1 .box h3{
+      color:#fff;
+      margin-bottom: 25px;
+      font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+      color:#efefef;
+margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+      display: inline-block;
+      text-decoration: none;
+      width: 45px;
+      height: 45px;
+      line-height: 45px;
+      color: #fff;
+      margin-right: 10px;
+      background-color: #0d2033;
+text-align: center;
+transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+     color: aqua; 
+}
+.pie-pagina .grupo-2{
+      background-color: #0a1a2a;
+      padding: 15px 10px;
+     text-align: center;
+     color: #fff; 
+}
+.pie-pagina .grupo-2 small{
+      font-size: 15px;
+}
+
 
 
 /*estilos de gridContainer*/
-
 .gridContainer {
       height: 500%;
       margin: 30px;
@@ -260,12 +312,13 @@ a {
             width: 180px;
             margin-left: 60px;
       }
+      
 
 
 
       /*media queries de contactos*/
       .ubi {
-            margin-left:10px;
+            margin-left: 10px;
             width: 250px;
       }
 
@@ -298,29 +351,56 @@ a {
             margin: 20px;
       }
 
-      /* fin de media queries a contactos*/
+
+      /*  media de corusel*/
       .carousel-inner {
             height: 350px;
       }
 
 
+
+/*media quieres de footer*/
+      .pie-pagina .grupo-1{
+            width: 90%;        
+            grid-template-columns: auto auto auto;
+            grid-gap:40px;
+            padding: 35px 0px;
+      }
+
+      .pie-pagina .grupo-1 .box figure img{
+            width: 140px;
+      }
+
+.pie-pagina .grupo-1 .box h3{
+font-size: 16px;
 }
+
+.pie-pagina .grupo-1 .box p{
+      font-size: 13px;
+}
+
+.pie-pagina .grupo-1 .red-social a{
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      margin-right: 7px;
+}
+.pie-pagina .grupo-2 small{
+      font-size: 12px;
+}
+
+}
+
+
 
 @media screen and (max-width: 576px) {
       .menuPrincipal h1 {
             font-size: 160%;
       }
-
+      
       .tercerMenu {
-            font-size: small;
-      }
-
-      .menuSecundario {
-            flex-direction: column;
-      }
-
-      .menuSecundario {
-            margin-top: 2px;
+            height: 70px;
+            font-size: x-small;
       }
 
       .lorem {
@@ -341,7 +421,6 @@ a {
             margin-right: 15%;
       }
 
-
       .gridContainer {
             grid-template-columns: auto;
 
@@ -351,6 +430,9 @@ a {
       .gridContainer img {
             width: 200px;
       }
+
+
+
 
       /*media queries de contactos*/
       .Titulo2 h2 {
@@ -394,13 +476,41 @@ a {
             margin: 3px;
       }
 
-      /*fin de media queries de contactos*/
-      .container-row {
-            margin-right: px;
-      }
+      
 
+
+      /*media quieres carousel*/
       .carousel-inner {
             height: 300px;
       }
 
+
+
+ /*media quieres footer*/
+      .pie-pagina .grupo-1{
+            width: 90%;        
+            grid-template-columns: auto;
+            grid-gap:30px;
+            padding: 30px 0px;
+      }
+      .pie-pagina .grupo-1 .box figure img{
+            width: 120px;
+      }
+.pie-pagina .grupo-1 .box h3{
+font-size: 13px;
 }
+.pie-pagina .grupo-1 .box p{
+      font-size: 12px;
+}
+.pie-pagina .grupo-1 .red-social a{
+      width: 25px;
+      height: 25px;
+      line-height: 25px;
+      color: #fff;
+      margin-right: 5px;
+}
+.pie-pagina .grupo-2 small{
+      font-size: 12px;
+}
+
+ }

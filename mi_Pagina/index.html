@@ -13,32 +13,52 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@603;613;700&family=Pacifico&family=Roboto:ital,wght@1,100;1,300&display=swap"
         rel="stylesheet">
+    <script src="https://kit.fontawesome.com/398666c85b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <!--menu de navegador-->
     <header class="menuPrincipal">
-        <h1>Rooster acusticos autenticos</h1>
-        <nav class="navegador">
-            <ul class="menuSecundario">
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./pages/contactos.html">Contacto</a></li>
-                <li><a href="./pages/redes.html">Redes</a></li>
-                <li><a href="./pages/sobre.nosotros.html">Sobre nosotros</a></li>
-                <li><a href="./pages/preguntas.frecuentes.html">Preguntas Frecuentes</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-navbar-castor">
+            <div class="container-fluid">
+                <h1>Rooster acusticos</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav i">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./pages/contactos.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/redes.html">Redes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/sobre.nosotros.html">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/preguntas.frecuentes.html">Preguntas Frecuentes</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
+    <!--menu 2-->
     <div class="segundoMenu">
         <ul class="tercerMenu">
-            <li class="top">Guitarras y bajos</li>
+            <li class="top">Guitarras bajos</li>
             <li class="top">Amplificadores y FX</li>
             <li class="top">Grabacion Sonido</li>
             <li class="top">INSTR de cuerdas</li>
         </ul>
     </div>
-
+    <!--carousel-->
     <div class="container-row">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -97,12 +117,32 @@
     </div>
     <hr>
     <!--pie de pagina-->
-    <footer>
-        <div class="footer-container">
-            <div class="footer-main">
-                .footer-columna*3>h3
-
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="./img/iconoo.jpg" alt="logo">
+                    </a>
+                </figure>
             </div>
+            <div class="box">
+                <h3>SOBRE NOSOTROS</h3>
+                <P>Musica Rooster acusticos es una tienda de intrumentos musicales </P>
+                <p>Expertos es acesorarte sobre tu compra musical </p>
+            </div>
+            <div class="box">
+                <h3>SIGUENOS</h3>
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2022 <b>Rooster</b> - Todos los Derechos Reservados.</small>
         </div>
     </footer>
     <script src="./js/bootstrap.min.js"></script>
