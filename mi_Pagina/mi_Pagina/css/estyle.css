@@ -1,0 +1,17 @@
+body {
+  width: 40%;
+  height: 100vh;
+  background-color: darkgray; }
+  body div h1 {
+    color: blue; }
+    body div h1 p {
+      font-family: "helvetica", sans-serif; }
+
+.color-blue {
+  background-color: #55acee; }
+
+.color-green {
+  background-color: #2ea45f; }
+
+.color-orange {
+  background-color: #c25e30; }
