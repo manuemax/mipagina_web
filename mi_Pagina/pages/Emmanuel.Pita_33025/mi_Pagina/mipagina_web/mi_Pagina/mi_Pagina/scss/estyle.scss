@@ -1,0 +1,51 @@
+
+$color-titulos:yellow;
+$background-color:#f55;
+$blak:#0055;
+$padding-1:5px;
+$font-size-lg:1.4rem;
+$font-family:"helvetica",sans-serif;
+
+
+
+@mixin size($alto, $ancho){
+    width: $ancho;
+    height: $alto;
+}
+
+
+
+
+body{
+
+    @include size(100vh,40%);
+
+    background-color: darkgray;
+    div{
+        h1{
+            color: blue;
+            p{
+                font-family:$font-family ;
+            }
+
+        }
+    }
+}
+
+
+
+
+
+$menu: (
+        blue:#55acee,
+        green: #2ea45f,
+        orange: #c25e30,
+);
+
+@each $item, $color in $menu {
+    .color-#{$item} {
+        background-color: $color;
+    }
+    
+}
+
